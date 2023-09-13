@@ -1,0 +1,3 @@
+C:/Users/moham/OneDrive/Desktop/current_coding/PS/Clion/Filya and Homework/cmake-build-debug/CMakeFiles/Filya_and_Homework.dir
+C:/Users/moham/OneDrive/Desktop/current_coding/PS/Clion/Filya and Homework/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/moham/OneDrive/Desktop/current_coding/PS/Clion/Filya and Homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir

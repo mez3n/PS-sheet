@@ -1,0 +1,3 @@
+﻿  Even Odds CF318-D2-A.cpp
+Snacktower CF767-D2-A.obj : error LNK2005: main already defined in Even Odds CF318-D2-A.obj
+C:\Users\moham\OneDrive\Desktop\current coding\Project1\x64\Debug\Project1.exe : fatal error LNK1169: one or more multiply defined symbols found
