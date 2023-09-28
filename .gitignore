@@ -1,6 +1,4 @@
 *.*
-!.gitattributes
-!.gitignore
+!*.c!
+.gitignore
 !readme.md
-!.gitkeep
-!*.cpp
