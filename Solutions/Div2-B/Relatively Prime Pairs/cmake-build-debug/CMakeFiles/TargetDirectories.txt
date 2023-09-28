@@ -1,3 +1,0 @@
-C:/Users/moham/OneDrive/Desktop/current_coding/PS/Solutions/Div2-B/Relatively Prime Pairs/cmake-build-debug/CMakeFiles/Relatively_Prime_Pairs.dir
-C:/Users/moham/OneDrive/Desktop/current_coding/PS/Solutions/Div2-B/Relatively Prime Pairs/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/moham/OneDrive/Desktop/current_coding/PS/Solutions/Div2-B/Relatively Prime Pairs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
