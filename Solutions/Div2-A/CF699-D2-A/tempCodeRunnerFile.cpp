@@ -1,0 +1,2 @@
+
+            if(time<min)
