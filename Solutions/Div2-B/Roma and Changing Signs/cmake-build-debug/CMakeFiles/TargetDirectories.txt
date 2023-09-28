@@ -1,3 +1,0 @@
-C:/Users/moham/OneDrive/Desktop/current_coding/PS/Clion/div2-B/Roma and Changing Signs/cmake-build-debug/CMakeFiles/Roma_and_Changing_Signs.dir
-C:/Users/moham/OneDrive/Desktop/current_coding/PS/Clion/div2-B/Roma and Changing Signs/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/moham/OneDrive/Desktop/current_coding/PS/Clion/div2-B/Roma and Changing Signs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
