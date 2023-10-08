@@ -5,10 +5,10 @@
 
 using namespace std;
 int ans = 0;
-
-bool shuffle(string &s, char m[], string &t, set<int> &index, int ind) {
-    if (ind == t.length()) {
-        cout << m << endl;
+unordered_set<string> outs;
+bool shuffle(string &s, char m[], string &t, set<int> &index, int ind,int size) {
+    if (ind == size) {
+        outs.insert(m);
         ans++;
         if (m == t) {
             return true;
@@ -16,12 +16,12 @@ bool shuffle(string &s, char m[], string &t, set<int> &index, int ind) {
             return false;
         }
     }
-    for (int i = 0; i < t.length(); i++) {
+    for (int i = 0; i < size; i++) {
         set<int> curindex = index;
         if (index.count(i) == 0) {
             curindex.insert(i);
             m[ind] = s[i];
-            bool x = shuffle(s, m, t, curindex, ind + 1);
+            bool x = shuffle(s, m, t, curindex, ind + 1,size);
             if (x) {
                 // return x;
             }
@@ -38,8 +38,16 @@ int main() {
     cin >> s;
     t = s;
     char m[t.length()];
-    shuffle(s, m, t, index, ind);
-    cout << ans;
+    for(int i =0;i<s.length();i++) {
+        string temp=s+s[i];
+        shuffle(temp, m, t, index, ind,4);
+    }
+    int count=0;
+    for(auto x:outs) {
+        count++;
+        cout << x << endl;
+    }
+    cout<<count;
 
 
     return 0;
